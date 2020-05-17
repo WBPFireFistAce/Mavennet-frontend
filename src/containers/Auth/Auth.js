@@ -133,7 +133,7 @@ class Auth extends React.Component {
                             {form}
                             {this.state.isSignUp? null :
                                     <div className="text-right">
-                                        <Link to="/resetPassword">Forgot password?</Link>
+                                        <Link to="/resetPassword">Forgot your password?</Link>
                                     </div>
                             }
                             <Button clicked={this.submitHandler} disabled={!this.state.formIsValid}>{this.state.isSignUp ? 'SignUp':'Login'}</Button>

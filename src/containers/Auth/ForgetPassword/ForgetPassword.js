@@ -110,7 +110,7 @@ class ForgetPassword extends React.Component {
         return ( 
             <Aux>
                 <span className="ContentTitle">
-                    Forgot Password?
+                    Forgot your Password?
                 </span>
                 <div className='text-center'>
                     <FontAwesomeIcon  icon={faLock} color=" #a64bf4"size="4x"/>
